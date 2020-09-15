@@ -13635,6 +13635,7 @@ ol {
 
 .single-blog-item .post-info .post-title {
   margin-bottom: 15px;
+  font-size: 36px;
 }
 
 .post-title h5 {
@@ -13708,6 +13709,7 @@ ol {
 .single-blog-item.blog-grid .post-info .post-title {
   margin-bottom: 40px;
   line-height: 1.5;
+  
 }
 
 .single-blog-item.blog-masonry {
@@ -15937,6 +15939,20 @@ rs-slide {
   flex-direction: column-reverse;
 }
 
+.post-excerpt {
+  line-height: 2rem;
+  font-size: 1rem;
+}
+
+.blog-h3 {
+  font-size: 1.5rem;
+  padding: 1rem 0;
+}
+
+
+.grid-head {
+  font-size: 1.7rem;
+}
 
 
 @media only screen and (max-width: 1024px) {
@@ -15969,6 +15985,9 @@ rs-slide {
 
 
 }
+
+
+
 
 
 
