@@ -1,3 +1,43 @@
+<?php
+
+if(isset($_POST['name']) && isset($_POST['email'])) {
+
+    $name = $_POST['con_name'];
+    $email = $_POST['email'];
+    $to = 'icdiagnostickit@gmail.com';
+    $subject = "New Customer"
+
+    $body = '<html>
+                <body>
+                    <h2> Feedback Customer </h2>
+                    <hr>
+                    <p>Name <br> '.$name.' </p>
+                    <p>Email : <br> '.$email.' </p>
+                </body>
+            </html>;        
+           '
+ //headers
+
+ $headers = "From : ".$name." <".$email.">\r\n";
+ $headers = "Reply-To : ".$email."\r\n";
+ $headers = "MIME-Version: 1.0\r\n";
+ $headers = "Content-type: text/html; charset-utf-8";
+
+ //send
+
+
+ $send = mail($to, $subject, $body, $headers);
+ 
+ if($send) {
+     echo '<br>';
+     echo 'Talebiniz Başarıyla Alınmıştır Teşekkürler..'
+ } else {
+     echo 'error'
+ }
+}
+?>
+
+
 <!DOCTYPE html>
 <html class="no-js" lang="zxx">
 
@@ -168,25 +208,25 @@
                         </div>
 
                         <div class="contact-from-wrapper ">
-                            <form id="contact-form" action="https://formspree.io/mjvpbrzb" method="post">
+                            <form id="contact-form" action="https://formspree.io/mjvpbrzb" method="post" role="form">
                                 <div class="contact-page-form">
                                     <div class="contact-input">
                                         <div class="contact-inner">
-                                            <input name="con_name" type="text" placeholder="İsim Soyisim *">
+                                            <input class="form-control" name="con_name" type="text" placeholder="İsim Soyisim *">
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="con_email" type="email" placeholder="Email *">
+                                            <input class="form-control" name="con_email" type="email" placeholder="Email *">
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="con_phone" type="phone" placeholder="Telefon *">
+                                            <input class="form-control" name="con_phone" type="phone" placeholder="Telefon *">
                                         </div>
                                         <div class="contact-inner">
-                                            <input name="con_company" type="company" placeholder="Şirket Adı *">
+                                            <input class="form-control" name="con_company" type="company" placeholder="Şirket Adı *">
                                         </div>
 
                                     </div>
                                     <div class="contact-inner">
-                                        <select name="" id="">
+                                        <select name="select" id="selectBox" class="form-control">
                                             <option class="formOption" value="0" selected>Ürün Seçiniz</option>
                                             <option class="formOption" value="1">COVID-19 Hızlı Test</option>
                                             <option class="formOption"  value="2">Antibiotic Test Kit</option>
@@ -195,10 +235,10 @@
                                         </select>
                                     </div>
                                     <div class="contact-inner contact-message">
-                                        <textarea name="con_message" placeholder="Adet, Özel İstek vb."></textarea>
+                                        <textarea class="form-control" name="con_message" placeholder="Adet, Özel İstek vb."></textarea>
                                     </div>
                                     <div class="contact-submit-btn">
-                                        <button class="ht-btn ht-btn-md" type="submit">Talep Gönder</button>
+                                        <button type="submit" name="submit" class="ht-btn ht-btn-md btn">Talep Gönder</button>
                                         <p class="form-messege"></p>
                                     </div>
                                 </div>
