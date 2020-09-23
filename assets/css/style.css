@@ -5631,7 +5631,7 @@ background-image: linear-gradient(90deg, #f0c3be 0%, #ffc2cd 55%, #f7bdc9 100%);
   line-height: 54px;
   letter-spacing: 0em;
   color: #ffffff;
-  background: #5945e6;
+  background: #f33961;
   -webkit-transform: translateY(0px);
       -ms-transform: translateY(0px);
           transform: translateY(0px);
@@ -15982,8 +15982,35 @@ rs-slide {
 
 
 .titleBlog {
-  font-size: 2rem !important;
+  font-size: 1.5rem !important;
 }
+
+
+.form-container {
+  margin-top: 10rem !important;
+}
+
+.form-container form{
+  margin-bottom: 10rem !important;
+}
+
+
+.form-groups {
+  display: flex !important;
+  justify-content: space-between !important;
+}
+
+
+.form-img-container {
+
+  display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 100%; */
+    margin-top: 8rem;
+}
+
+
 
 @media only screen and (max-width: 1024px) {
 
