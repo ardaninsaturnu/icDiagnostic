@@ -71,6 +71,8 @@ if(isset($_SESSION["alert"])) {
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
 
+    <script src="//code.jivosite.com/widget/dnb3Yed10F" async></script>
+
 </head>
 
 
@@ -126,6 +128,7 @@ if(isset($_SESSION["alert"])) {
                             <nav class="navigation-menu">
                                 <ul>
                                     <li><a href="../index.html"><span>ANASAYFA</span></a></li>
+                                    <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
                                     <li><a href="../blogs.html"><span>BLOG</span></a></li>
                                     <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
                                     <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
@@ -258,9 +261,8 @@ if(isset($_SESSION["alert"])) {
                             <img src="assets/images/logofooter.png" class="img-fluid" alt="">
                         </div>
                         <ul class="footer-widget__list">
-                            <li>58 Howard Street #2 San Francisco, CA 941</li>
-                            <li><a href="#" class="hover-style-link">contact@aeroland.com</a></li>
-                            <li><a href="#" class="hover-style-link">(+68)1221 09876</a></li>
+                            <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP</li>
+                            <li><a href="#" class="hover-style-link">contact@icdiagnostickit.com</a></li>
                             <li><a href="#" class="hover-style-link hover-style-link--green">www.icdiagnostickit.com</a></li>
                         </ul>
                     </div>
@@ -326,17 +328,15 @@ if(isset($_SESSION["alert"])) {
            <div class="mobile-menu-overlay__body">
                <nav class="offcanvas-navigation">
                    <ul>
-                       <li><a href="index.html">Landing</a></li>
-                       <li>
-                           <a href="#">Pages</a>
-                       </li>
-                       <li>
-                           <a href="#">Elements</a>
-                       </li>
+                  <li><a href="../index.html">ANASAYFA</a></li>
+                   <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
+                                    <li><a href="../blogs.html"><span>BLOG</span></a></li>
+                                    <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
+                                    <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
                         
                    </ul>
                    <div class="header-button__mobile">
-                       <a href="#" class="ht-btn ht-btn--outline">SATIN AL</a>
+                       <a href="form.php" class="ht-btn ht-btn--outline">Ürün Talep Formu</a>
                    </div>   
                </nav>
            </div>
@@ -344,8 +344,6 @@ if(isset($_SESSION["alert"])) {
    </div>
    <!--====================  End of mobile menu overlay  ====================-->
 
-
-   
 
     <!-- JS
     ============================================ -->
