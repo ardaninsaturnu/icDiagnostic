@@ -126,6 +126,7 @@ if(isset($_SESSION["alert"])) {
                             <nav class="navigation-menu">
                                 <ul>
                                     <li><a href="../index.html"><span>ANASAYFA</span></a></li>
+                                    <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
                                     <li><a href="../blogs.html"><span>BLOG</span></a></li>
                                     <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
                                     <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
@@ -326,17 +327,15 @@ if(isset($_SESSION["alert"])) {
            <div class="mobile-menu-overlay__body">
                <nav class="offcanvas-navigation">
                    <ul>
-                       <li><a href="index.html">Landing</a></li>
-                       <li>
-                           <a href="#">Pages</a>
-                       </li>
-                       <li>
-                           <a href="#">Elements</a>
-                       </li>
+                  <li><a href="../index.html">ANASAYFA</a></li>
+                   <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
+                                    <li><a href="../blogs.html"><span>BLOG</span></a></li>
+                                    <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
+                                    <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
                         
                    </ul>
                    <div class="header-button__mobile">
-                       <a href="#" class="ht-btn ht-btn--outline">SATIN AL</a>
+                       <a href="form.php" class="ht-btn ht-btn--outline">Ürün Talep Formu</a>
                    </div>   
                </nav>
            </div>
@@ -344,6 +343,12 @@ if(isset($_SESSION["alert"])) {
    </div>
    <!--====================  End of mobile menu overlay  ====================-->
 
+
+   <!----------------------------------whatsappp------------------------------------------>
+
+
+<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-04125c4e-9289-414f-8935-4e3184ecef46"></div>
 
    
 
