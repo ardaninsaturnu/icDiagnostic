@@ -71,6 +71,8 @@ if(isset($_SESSION["alert"])) {
     <!-- Main Style CSS -->
     <link rel="stylesheet" href="../assets/css/style.css">
 
+    <script src="//code.jivosite.com/widget/dnb3Yed10F" async></script>
+
 </head>
 
 
@@ -343,14 +345,6 @@ if(isset($_SESSION["alert"])) {
    </div>
    <!--====================  End of mobile menu overlay  ====================-->
 
-
-   <!----------------------------------whatsappp------------------------------------------>
-
-
-<script src="https://apps.elfsight.com/p/platform.js" defer></script>
-<div class="elfsight-app-04125c4e-9289-414f-8935-4e3184ecef46"></div>
-
-   
 
     <!-- JS
     ============================================ -->
