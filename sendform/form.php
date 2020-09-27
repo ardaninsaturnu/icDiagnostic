@@ -261,9 +261,8 @@ if(isset($_SESSION["alert"])) {
                             <img src="assets/images/logofooter.png" class="img-fluid" alt="">
                         </div>
                         <ul class="footer-widget__list">
-                            <li>58 Howard Street #2 San Francisco, CA 941</li>
-                            <li><a href="#" class="hover-style-link">contact@aeroland.com</a></li>
-                            <li><a href="#" class="hover-style-link">(+68)1221 09876</a></li>
+                            <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP</li>
+                            <li><a href="#" class="hover-style-link">contact@icdiagnostickit.com</a></li>
                             <li><a href="#" class="hover-style-link hover-style-link--green">www.icdiagnostickit.com</a></li>
                         </ul>
                     </div>
