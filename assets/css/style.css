@@ -16136,6 +16136,11 @@ rs-slide {
     margin: 1rem;
   }
 
+  .text-aboutus {
+    color: #9a9a9a;
+    font-size: 1rem;
+    line-height: 1.9rem;
+  }
 
   .text-aboutus li i {
     margin-right: 1rem;
