@@ -16136,11 +16136,20 @@ rs-slide {
     margin: 1rem;
   }
 
+  .text-aboutus {
+    color: #9a9a9a;
+    font-size: 1rem;
+    line-height: 1.9rem;
+  }
 
   .text-aboutus li i {
     margin-right: 1rem;
   }
   
+
+  .single-flexible-slider img {
+    width: 100%;
+  }
 
 
 
@@ -16223,9 +16232,13 @@ rs-slide {
   .site-wrapper-reveal {
     margin-bottom: 100px; 
 }
-
+.single-flexible-slider img {
+  width: 100%;
+}
 
 }
+
+
 
 
 

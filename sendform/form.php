@@ -218,8 +218,9 @@ if(isset($_SESSION["alert"])) {
                                 Ürün :
                                 <select name="product" id="product" class="form-control" required>
                                     <option value="0">Ürün Seçiniz</option>
-                                    <option value="1">Antibiotic Diagnostic Kit</option>
+                                    <option value="1">Multi Drugs Diagnostic Kit</option>
                                     <option value="2">COVID-19 Diagnostic Kit</option>
+                                    <option value="3">Hepatit anti-HBs Diagnostic Kit</option>
                                 </select>
                             </label>
                             <label for="count">
@@ -251,8 +252,8 @@ if(isset($_SESSION["alert"])) {
 
     </div>
 
-     <!--====================  footer area ====================-->
-     <div class="footer-area-wrapper reveal-footer">
+    <!--====================  footer area ====================-->
+    <div class="footer-area-wrapper reveal-footer">
         <div class="footer-area section-space--ptb_90">
             <div class="container">
                 <div class="row footer-widget-wrapper">
@@ -262,26 +263,26 @@ if(isset($_SESSION["alert"])) {
                         </div>
                         <ul class="footer-widget__list">
                             <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP</li>
-                            <li><a href="#" class="hover-style-link">contact@icdiagnostickit.com</a></li>
+                            <li><a href="mailto:icdiagnostickit@gmail.com" class="hover-style-link">contact@icdiagnostickit.com</a></li>
                             <li><a href="#" class="hover-style-link hover-style-link--green">www.icdiagnostickit.com</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-widget justify-content-center">
-                        <h6 class="footer-widget__title mb-20">Who we are</h6>
+                        <h6 class="footer-widget__title mb-20">Biz Kimiz</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="#" class="hover-style-link">About us</a></li>
-                            <li><a href="#" class="hover-style-link">Before you go</a></li>
-                            <li><a href="#" class="hover-style-link">Online check in</a></li>
-                            <li><a href="#" class="hover-style-link">FAQ</a></li>
+                            <li><a href="./aboutus.html" class="hover-style-link">Hakkımızda</a></li>
+                            <li><a href="#" class="hover-style-link">Sıkça Sorulan Sorular</a></li>
+                            <li><a href="./sendform/form.php" class="hover-style-link">Ürün Talep Formu</a></li>
+                            <li><a href="./blogs.html" class="hover-style-link">Blog</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-widget justify-content-center">
-                        <h6 class="footer-widget__title mb-20">Quick links</h6>
+                        <h6 class="footer-widget__title mb-20">Linkler</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="#" class="hover-style-link">Pick up locations</a></li>
-                            <li><a href="#" class="hover-style-link">Terms of Payment</a></li>
-                            <li><a href="#" class="hover-style-link">Privacy Policy</a></li>
-                            <li><a href="#" class="hover-style-link">Where to Find Us</a></li>
+                            <li><a href="./products.html" class="hover-style-link">Ürünleri İncele</a></li>
+                            <li><a href="#" class="hover-style-link">Koronavirüs Antikor Test Kiti</a></li>
+                            <li><a href="#" class="hover-style-link">Sertifikalar</a></li>
+                            
                         </ul>
                     </div>
                    
@@ -292,13 +293,14 @@ if(isset($_SESSION["alert"])) {
             <div class="container">
                 <div class="row align-items-center justify-content-center">
                     
-                        <span class="copyright-text">© 2020 Diagnostic. All Rights Reserved.</span>
+                        <span class="copyright-text">© 2020 IC Diagnostic Kit. All Rights Reserved.</span>
                     
                 </div>
             </div>
         </div>
     </div>
     <!--====================  End of footer area  ====================-->
+
 
 
      <!--====================  mobile menu overlay ====================-->
