@@ -218,8 +218,9 @@ if(isset($_SESSION["alert"])) {
                                 Ürün :
                                 <select name="product" id="product" class="form-control" required>
                                     <option value="0">Ürün Seçiniz</option>
-                                    <option value="1">Antibiotic Diagnostic Kit</option>
+                                    <option value="1">Multi Drugs Diagnostic Kit</option>
                                     <option value="2">COVID-19 Diagnostic Kit</option>
+                                    <option value="3">Hepatit anti-HBs Diagnostic Kit</option>
                                 </select>
                             </label>
                             <label for="count">

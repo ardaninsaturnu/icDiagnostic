@@ -16147,6 +16147,10 @@ rs-slide {
   }
   
 
+  .single-flexible-slider img {
+    width: 100%;
+  }
+
 
 
 
@@ -16228,9 +16232,13 @@ rs-slide {
   .site-wrapper-reveal {
     margin-bottom: 100px; 
 }
-
+.single-flexible-slider img {
+  width: 100%;
+}
 
 }
+
+
 
 
 
