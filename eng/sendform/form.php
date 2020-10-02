@@ -152,6 +152,9 @@ if(isset($_SESSION["alert"])) {
                         <div class="header__actions">
                             <div class="header__icons-wrapper" id="hidden-icon-wrapper">
                                 
+                            <div class="language-button">
+                                    <a href="../../sendform/form.php">TR</a> / <a href="#">ENG</a>
+                                </div>
                                
                                 <div class="header-button">
                                     <a href="./form.php" class="ht-btn ht-btn--outline">Product Request</a>

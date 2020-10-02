@@ -127,11 +127,20 @@ if(isset($_SESSION["alert"])) {
                         <div class="header__navigation d-none d-xl-block">
                             <nav class="navigation-menu">
                                 <ul>
+
                                     <li><a href="../index.html"><span>ANASAYFA</span></a></li>
-                                    <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
+                                    <li class="aboutDropdown">
+                                        <a href="../aboutus.html"><span>KURUMSAL</span></a>
+                                        <ul class="aboutusdropdown">
+                                            <li><a href="">Sertifikalar</a></li>
+                                            <li><a href="">Hakkımızda</a></li>
+                                        </ul>
+                                    
+                                    </li>
                                     <li><a href="../blogs.html"><span>BLOG</span></a></li>
                                     <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
                                     <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
+
                                 </ul>
                             </nav>
                         </div>
@@ -143,6 +152,9 @@ if(isset($_SESSION["alert"])) {
                         <div class="header__actions">
                             <div class="header__icons-wrapper" id="hidden-icon-wrapper">
                                 
+                            <div class="language-button">
+                                    <a href="#">TR</a> / <a href="../eng/sendform/form.php">ENG</a>
+                                </div>
                                
                                 <div class="header-button">
                                     <a href="./form.php" class="ht-btn ht-btn--outline">Ürün Talep Formu</a>

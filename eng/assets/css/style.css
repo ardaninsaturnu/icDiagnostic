@@ -3169,9 +3169,9 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, in
 }
 
 .header__actions {
-  -webkit-flex-basis: 12%;
-      -ms-flex-preferred-size: 12%;
-          flex-basis: 12%;
+  -webkit-flex-basis: 18%;
+      -ms-flex-preferred-size: 18%;
+          flex-basis: 18%;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -3179,7 +3179,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, in
   -webkit-box-pack: end;
   -webkit-justify-content: flex-end;
       -ms-flex-pack: end;
-          justify-content: flex-end;
+          justify-content: space-between ;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
@@ -16155,7 +16155,7 @@ rs-slide {
 
   .aboutusdropdown {
 
-    background-color: #d312289d;
+    background-color: #b7436ee5;
     color: white;
     width: 180px;
     height: 200px;
@@ -16182,9 +16182,17 @@ rs-slide {
 
   .aboutDropdown li a:hover {
 
-    color: rgb(206, 206, 206);
+    color: rgb(223, 223, 223);
 
   }
+
+  .language-button {
+    
+    margin-left: 1rem;
+
+  }
+
+  
 
 
 
