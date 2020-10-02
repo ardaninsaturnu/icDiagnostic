@@ -127,11 +127,20 @@ if(isset($_SESSION["alert"])) {
                         <div class="header__navigation d-none d-xl-block">
                             <nav class="navigation-menu">
                                 <ul>
-                                    <li><a href="../index.html"><span>ANASAYFA</span></a></li>
-                                    <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
+
+                                    <li><a href="../index.html"><span>HOME</span></a></li>
+                                    <li class="aboutDropdown">
+                                        <a href="../aboutus.html"><span>COMPANY</span></a>
+                                        <ul class="aboutusdropdown">
+                                            <li><a href="">Certifications</a></li>
+                                            <li><a href="">About Us</a></li>
+                                        </ul>
+                                    
+                                    </li>
                                     <li><a href="../blogs.html"><span>BLOG</span></a></li>
-                                    <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
-                                    <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
+                                    <li><a href="../products.html"><span>PRODUCTS</span></a></li>
+                                    <li><a href="../index.html#faq-section"><span>FAQ</span></a></li>
+
                                 </ul>
                             </nav>
                         </div>
@@ -145,7 +154,7 @@ if(isset($_SESSION["alert"])) {
                                 
                                
                                 <div class="header-button">
-                                    <a href="./form.php" class="ht-btn ht-btn--outline">Ürün Talep Formu</a>
+                                    <a href="./form.php" class="ht-btn ht-btn--outline">Product Request</a>
                                 </div>
                             </div>
                             <!-- mobile menu -->
@@ -190,8 +199,8 @@ if(isset($_SESSION["alert"])) {
                     <?php } ?>  
 
 
-                    <h1 style="font-size: 2.2rem; margin:1rem 0;">Ürün Talep Formu</h1>
-                    <p style="margin-bottom: 1rem;">Talep Formunu Doldurun Size En Kısa Sürede Dönüş Yapalım.</p>
+                    <h1 style="font-size: 2.2rem; margin:1rem 0;">Product Request Form</h1>
+                    <p style="margin-bottom: 1rem;">Complete This Form We ll return back quickly.</p>
     
                        
                     <form action="send_email.php" method="POST">
@@ -199,7 +208,7 @@ if(isset($_SESSION["alert"])) {
                     
     
                         <div class="form-group">
-                            <label for="name">İsim Soyisim : </label>
+                            <label for="name">Name and Lastname : </label>
                             <input type="text" class="form-control" name="name" required>
                         </div>
     
@@ -209,13 +218,13 @@ if(isset($_SESSION["alert"])) {
                         </div>
     
                         <div class="form-group">
-                            <label for="phone">Telefon : </label>
+                            <label for="phone">Phone : </label>
                             <input type="number" class="form-control" name="phone" required>
                         </div>
 
                         <div class="form-group form-groups">
                             <label for="product">
-                                Ürün :
+                                Product :
                                 <select name="product" id="product" class="form-control" required>
                                     <option value="0">Ürün Seçiniz</option>
                                     <option value="1">Multi Drugs Diagnostic Kit</option>
@@ -224,18 +233,18 @@ if(isset($_SESSION["alert"])) {
                                 </select>
                             </label>
                             <label for="count">
-                                Adet :
+                                Amount :
                                 <input type="number" class="form-control"
                                 name="count" placeholder="Adet Giriniz" required>
                             </label>
                         </div>
     
                         <div class="form-group">
-                            <label for="message">Mesaj :</label>
+                            <label for="message">Message :</label>
                             <textarea class="form-control" name="message" id="message" cols="30" rows="10"></textarea>
                         </div>
     
-                        <button type="submit" class="btn btn-primary">Gönder</button>
+                        <button type="submit" class="btn btn-primary">Send</button>
                         
                         
                     </form>
@@ -262,26 +271,26 @@ if(isset($_SESSION["alert"])) {
                             <img src="assets/images/logofooter.png" class="img-fluid" alt="">
                         </div>
                         <ul class="footer-widget__list">
-                            <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP</li>
+                            <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP  TURKEY</li>
                             <li><a href="mailto:icdiagnostickit@gmail.com" class="hover-style-link">contact@icdiagnostickit.com</a></li>
                             <li><a href="#" class="hover-style-link hover-style-link--green">www.icdiagnostickit.com</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-widget justify-content-center">
-                        <h6 class="footer-widget__title mb-20">Biz Kimiz</h6>
+                        <h6 class="footer-widget__title mb-20">Who We Are ?</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="./aboutus.html" class="hover-style-link">Hakkımızda</a></li>
-                            <li><a href="#" class="hover-style-link">Sıkça Sorulan Sorular</a></li>
-                            <li><a href="./sendform/form.php" class="hover-style-link">Ürün Talep Formu</a></li>
+                            <li><a href="./aboutus.html" class="hover-style-link">About Us</a></li>
+                            <li><a href="#" class="hover-style-link">Frequently Asked Questions</a></li>
+                            <li><a href="./sendform/form.php" class="hover-style-link">Product Request</a></li>
                             <li><a href="./blogs.html" class="hover-style-link">Blog</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-widget justify-content-center">
-                        <h6 class="footer-widget__title mb-20">Linkler</h6>
+                        <h6 class="footer-widget__title mb-20">Links</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="./products.html" class="hover-style-link">Ürünleri İncele</a></li>
-                            <li><a href="#" class="hover-style-link">Koronavirüs Antikor Test Kiti</a></li>
-                            <li><a href="#" class="hover-style-link">Sertifikalar</a></li>
+                            <li><a href="./products.html" class="hover-style-link">Inspect Product</a></li>
+                            <li><a href="#" class="hover-style-link">Coronavirüs Antichor Test Kit</a></li>
+                            <li><a href="#" class="hover-style-link">Certifications</a></li>
                             
                         </ul>
                     </div>

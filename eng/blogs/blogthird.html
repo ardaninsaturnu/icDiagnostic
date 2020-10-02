@@ -117,11 +117,18 @@
                             <nav class="navigation-menu">
                                 <ul>
 
-                                    <li><a href="../index.html"><span>ANASAYFA</span></a></li>
-                                    <li><a href="../aboutus.html"><span>KURUMSAL</span></a></li>
+                                    <li><a href="../index.html"><span>HOME</span></a></li>
+                                    <li class="aboutDropdown">
+                                        <a href="../aboutus.html"><span>COMPANY</span></a>
+                                        <ul class="aboutusdropdown">
+                                            <li><a href="">Certifications</a></li>
+                                            <li><a href="">About Us</a></li>
+                                        </ul>
+                                    
+                                    </li>
                                     <li><a href="../blogs.html"><span>BLOG</span></a></li>
-                                    <li><a href="../products.html"><span>ÜRÜNLER</span></a></li>
-                                    <li><a href="../index.html#faq-section"><span>SSS</span></a></li>
+                                    <li><a href="../products.html"><span>PRODUCTS</span></a></li>
+                                    <li><a href="../index.html#faq-section"><span>FAQ</span></a></li>
 
                                 </ul>
                             </nav>
@@ -136,12 +143,19 @@
                                 
                                
                                 <div class="header-button">
-                                    <a href="../sendform/form.php" class="ht-btn ht-btn--outline">Ürün Talep Formu</a>
+                                    <a href="../sendform/form.php" class="ht-btn ht-btn--outline">Product Request</a>
                                 </div>
                             </div>
                             <!-- mobile menu -->
                             
-                            
+                            <!-- hidden icons menu -->
+
+
+                            <div class="hidden-icons-menu d-block d-md-none" id="hidden-icon-trigger">
+                                <a href="javascript:void(0)">
+                                    <i class="far fa-ellipsis-h-alt"></i>
+                                </a>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -175,7 +189,6 @@
 
 
 
-
     <div class="site-wrapper-reveal">
 
 
@@ -202,7 +215,7 @@
                                     </div>
 
                                     <h1 class="post-title font-weight--light text-center">
-                                        KORONAVİRÜS Olduğumuzu Nasıl Tespit Ederiz ? 
+                                        HOW DOES IT BECOME CLEAR THAT WE ARE CORONAVIRUS? 
                                     </h1>
 
                                     <div class="post-meta mt-20 justify-content-center">
@@ -223,41 +236,39 @@
 
                                     <div class="post-excerpt mt-15">
                                     <!----------------------------------------------------------------------------------------------------------------->  
-                                    
                                     <p>
-                                        Dünyayı saran koronavirüs bir insana bulaştığı zaman bazı belirtilerini gösterse de virüsün size bulaştığını kesinleştirmeniz için gereken şey: Serolojik test kiti. 
+                                        Although the coronavirus that surrounds the world shows some of its symptoms when it infects a person, what you need to make sure that the virus is transmitted to you: a serological test kit.
                                     </p>
                                     
                                     <h3 class="blog-h3">
-                                        Peki Serolojik Testler Ne İşe Yarar ?
+                                        SO WHAT IS A SEROLOGICAL TEST KIT AND WHAT DOES IT DO? 
                                     </h3>
                                     
                                     <p>
-                                        Enfeksiyon ve kan yoluyla bulaşan hepatit gibi, bir hastalık şüphesi olduğunda sık yapılan tıbbi kan testidir ve koronavirüse neden olan SARS-CoV-2 ile enfekte olduğunu tahmin etmeye yardımcı olmaktadır. Serolojik test aynı zamanda ticari laboratuvarda antikor testi olarak adlandırılmaktadır.Antikor test sonuçları koronavirüs olan kişilerde belirtiler hiç olmaması veya çok az olması durumunda enfeksiyonları tespit etmenizi sağlar bundan dolayı antikor testi çok önemlidir.Çünkü koronavirüse yakalanan her insan belirtilerini çok fazla göstermediği için test yaptırmıyor ve kendini sağlıklı olarak düşündüğü için koronavirüsü diğer insanlara bulaştırabileceğini maalesef düşünemiyor .Serolojik testlerin uygulandığı bir başka kişiler ise koronavirüse yakalanmış ve daha sonrasında iyileşenlerdir. Bu tip insanlarda kullanılmasının nedeni kanlarında olan virüse karşı oluşan antikorların tespit edilmesi için kullanılmasıdır.  
+                                        Like infection and blood-borne hepatitis, it is a frequent medical blood test when a disease is suspected, helping to predict that it is infected with SARS-CoV-2, which causes the coronavirus .Serological testing is also called an antibody test in a commercial laboratory. Antibody test results allow you to detect infections if there are no or very few symptoms in people with coronavirus, so antibody testing is very important.Unfortunately, he cannot think that he can transmit the coronavirus to other people because he thinks he is healthy. Another people who have serological tests are those who have caught the coronavirus and subsequently recovered. The reason why it is used in this type of people is that it is used to detect antibodies against the virus in their blood. 
                                     </p>
                                    
                                     <h3 class="blog-h3">
-                                        Serolojik Testler Nasıl Uygulanır ?
+                                        HOW IS SEROLOGICAL TEST APPLIED? 
                                     </h3>
                                   
                                     <p>
-                                        Serolojik test diğer bir adıyla antikor testlerinin uygulaması oldukça basit.İlk olarak parmak ucundan bir damla kan alınır daha sonra kanın üzerine 2 damla "Solüsyon" denilen madde damlatılır ve böylelikle kandaki antikor tipleri tespit edilir.Bu testler 15 dakika gibi çok kısa bir sürede sonuç vermektedir.Sonuçlar şu şekilde yorumlanılır: 
-                                    
-                                    -Sadece "C" çizgisi oluşmuşsa "NEGATİF" 
-                                    
-                                    -"C,G,M" ise "POZİTİF"  
-                                    
-                                    -"C,G" - " lgG POZİTİF " -GEÇİRMİŞ- 
-                                    
-                                    -"C,M"  -lgM "POZİTİF" -BAŞLANGICI VAR- 
-                                    
-                                    Diğer tüm durumlarda test "GEÇERSİZDİR" 
+                                        Serological test, in other words, the application of antibody tests is quite simple. First, a drop of blood is taken from the fingertip, then 2 drops of a substance called "Solution" is dropped on the blood and thus antibody types in the blood are detected. These tests give results in a very short time like 15 minutes. The results are interpreted as follows: 
+                                    - If only "C" line is formed "NEGATIVE" 
+
+                                    - If "C, G, M" is "POSITIVE" 
+
+                                    - "C, G" - "lgG POSITIVE" -PASSED- 
+
+                                    - "C, M" -lgM "POSITIVE" -THE STARTUP- 
+
+                                    In all other cases the test is "INVALID" 
                                     </p>
                                     
-                                    <h3 class="blog-h3">Serolojik Testler Güvenilir mi ? </h3>
+                                    <h3 class="blog-h3">  IS SEROLOGICAL TEST RELIABLE?  </h3>
                                     
                                     <p>
-                                        "Serolojik teste güvenilir mi?" sorusu herkesin aklına takılsa da Sağlık Bakanlığı bu testleri desteklediği bilinmektedir ve buna ek olarak Sağlık Bakanı Fahrettin Koca 81 ilde serolojik testlerinin uygulanacağını duyurmuştur.Buna dayanarak "serolojik testler güvenlidir." demek mümkündür. 
+                                        "Is it safe in serological testing?" Although the question stuck to everyone's mind, the Ministry of Health is known to support these tests and in addition, Health Minister Fahrettin Koca announced that serological tests will be applied in 81 provinces. Based on this, "serological tests are safe." It is possible to say. 
                                     </p> 
                                     
 
@@ -279,7 +290,7 @@
                                                 <div class="col-lg-6 col-md-6">
                                                     <div id="entry-post-share" class="entry-post-share">
                                                         <div class="share-label">
-                                                            Bu Gönderiyi Paylaş
+                                                            Share This Post
                                                         </div>
                                                         <div class="share-media">
                                                             <span class="share-icon far fa-share-alt"></span>
@@ -318,23 +329,7 @@
             </div>
         </div>
         <!--====================  Blog Area End  ====================-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </div>
+  </div>
 
 
 
@@ -346,29 +341,29 @@
                 <div class="row footer-widget-wrapper">
                     <div class="col-lg-4 col-md-6 footer-widget">
                         <div class="footer-widget__logo mb-30">
-                            <img src="assets/images/logofooter.png" class="img-fluid" alt="">
+                            <img src="../assets/images/logofooter.png" class="img-fluid" alt="">
                         </div>
                         <ul class="footer-widget__list">
-                            <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP</li>
+                            <li>İncilipınar Mah. 36016 No'lu Cad. No1/A Şehitkamil/GAZİANTEP  TURKEY</li>
                             <li><a href="mailto:icdiagnostickit@gmail.com" class="hover-style-link">contact@icdiagnostickit.com</a></li>
                             <li><a href="#" class="hover-style-link hover-style-link--green">www.icdiagnostickit.com</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-widget justify-content-center">
-                        <h6 class="footer-widget__title mb-20">Biz Kimiz</h6>
+                        <h6 class="footer-widget__title mb-20">Who We Are ?</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="./aboutus.html" class="hover-style-link">Hakkımızda</a></li>
-                            <li><a href="#" class="hover-style-link">Sıkça Sorulan Sorular</a></li>
-                            <li><a href="./sendform/form.php" class="hover-style-link">Ürün Talep Formu</a></li>
-                            <li><a href="./blogs.html" class="hover-style-link">Blog</a></li>
+                            <li><a href="../aboutus.html" class="hover-style-link">About Us</a></li>
+                            <li><a href="#" class="hover-style-link">Frequently Asked Questions</a></li>
+                            <li><a href="../sendform/form.php" class="hover-style-link">Product Request</a></li>
+                            <li><a href="../blogs.html" class="hover-style-link">Blog</a></li>
                         </ul>
                     </div>
                     <div class="col-lg-4 col-md-6 footer-widget justify-content-center">
-                        <h6 class="footer-widget__title mb-20">Linkler</h6>
+                        <h6 class="footer-widget__title mb-20">Links</h6>
                         <ul class="footer-widget__list">
-                            <li><a href="./products.html" class="hover-style-link">Ürünleri İncele</a></li>
-                            <li><a href="#" class="hover-style-link">Koronavirüs Antikor Test Kiti</a></li>
-                            <li><a href="#" class="hover-style-link">Sertifikalar</a></li>
+                            <li><a href="../products.html" class="hover-style-link">Inspect Product</a></li>
+                            <li><a href="#" class="hover-style-link">Coronavirüs Antichor Test Kit</a></li>
+                            <li><a href="#" class="hover-style-link">Certifications</a></li>
                             
                         </ul>
                     </div>
@@ -387,7 +382,6 @@
         </div>
     </div>
     <!--====================  End of footer area  ====================-->
-
 
 
 
