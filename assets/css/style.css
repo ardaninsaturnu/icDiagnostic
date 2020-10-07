@@ -3091,8 +3091,7 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, in
   -webkit-flex-basis: 20%;
       -ms-flex-preferred-size: 20%;
           flex-basis: 20%;
-  padding-top: 20px;
-  padding-bottom: 20px;
+ 
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px), only screen and (min-width: 768px) and (max-width: 991px), only screen and (max-width: 767px) {
